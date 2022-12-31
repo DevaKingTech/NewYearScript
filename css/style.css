@@ -15,7 +15,7 @@ body{
     flex-direction: column;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/newyear.jpg);
     color: #fff;
-    background-size: cover;
+    background-size: 80%;
     background-position: center;
 
 }
@@ -65,6 +65,10 @@ p{
     .box small{
         font-size: 14px;
     }
+    body{
+    background-size: cover;
+    background-position: center;
+    }
 }
 
 @media(min-width:768px) {
@@ -84,5 +88,9 @@ p{
     }
     .box small{
         font-size: 18px;
+    }
+     body{
+    background-size: cover;
+    background-position: center;
     }
 }
