@@ -17,6 +17,7 @@ body{
     color: #fff;
     background-size: 60%;
     background-position: center;
+    background-repeat: no-repeat;
 
 }
 .counter{
