@@ -13,11 +13,11 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/newyear.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/new.jpg);
     color: #fff;
     background-size: cover;
-    background-position: center;
-    
+    background-position: center ;
+    background-repeat: no-repeat;
 
 }
 .counter{
@@ -48,6 +48,7 @@ p{
     font-size: 10px;
 }
 
+
 @media(min-width:576px){
     .newyear{
         font-size: 70px;
@@ -66,7 +67,6 @@ p{
     .box small{
         font-size: 14px;
     }
-
 }
 
 @media(min-width:768px) {
@@ -87,5 +87,4 @@ p{
     .box small{
         font-size: 18px;
     }
-
 }
